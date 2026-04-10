@@ -1,0 +1,39 @@
+METRIC: Stakeholder Diversity (Breadth)
+TYPE: Extractive
+
+TASK: Identify which stakeholder groups are explicitly addressed in the system card. A group is PRESENT only if the card discusses considerations, impacts, or guidance specifically relevant to that group — at least one paragraph of substantive discussion, not just a name in a list.
+
+Note: Cards may use different terminology (e.g., "API users" for developers, "vulnerable populations" for affected communities). Match by substance.
+
+STAKEHOLDER GROUPS:
+1. Developers / API users (technical users building applications)
+2. End-users / consumers (general public interacting with the model)
+3. Researchers (academic researchers, safety researchers)
+4. Policymakers / regulators (government officials, regulatory bodies)
+5. Affected communities (marginalized groups, those disproportionately impacted by AI)
+6. Children / minors
+7. Enterprises / organizations (business customers deploying at scale)
+8. Educators / students (educational use cases)
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "stakeholder_diversity",
+  "stakeholders": [
+    {
+      "group": "Developers / API users",
+      "present": true,
+      "section": "Section 3.2 - API Safety, p. 15",
+      "quote": "Developers integrating the model via the API should implement ..."
+    },
+    {
+      "group": "Educators / students",
+      "present": false,
+      "section": null,
+      "quote": null
+    }
+  ],
+  "count_present": 4,
+  "count_total": 8,
+  "score": 50.0,
+  "justification": "The card addresses 4 of 8 stakeholder groups. Developers and end-users are well covered. No discussion of educators, children, or policymakers."
+}

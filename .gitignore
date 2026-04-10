@@ -1,0 +1,10 @@
+.env
+.claude/
+__pycache__/
+*.pyc
+.venv/
+system_cards/*.pdf
+system_cards/companion_reports/*.pdf
+results/raw/
+results/extracted/
+results/prefetch/

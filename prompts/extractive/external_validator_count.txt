@@ -1,0 +1,37 @@
+METRIC: External Validator Count (3rd-party Verification)
+TYPE: Extractive
+
+TASK: List every distinct external organization, auditor, red-teamer, or third-party entity that is cited BY NAME as having participated in evaluating, auditing, red-teaming, or reviewing the model.
+
+COUNTING RULES:
+- Only count organizations explicitly named (e.g., "METR", "Apollo Research", "AISI").
+- Do NOT count vague references like "external experts" or "third-party auditors" without names.
+- Government bodies and regulators count (e.g., "UK AISI", "NIST") if they participated in evaluation.
+- Academic institutions count if named as evaluation partners (e.g., "MIT", "Stanford").
+- Paid contractors/consultants count if named, but note their role as "paid contractor" vs. "independent auditor" in your extraction.
+- Do NOT count organizations only mentioned as creators of benchmarks (e.g., "MMLU by Hendrycks et al.") — they must have actively evaluated THIS model.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "external_validator_count",
+  "validators": [
+    {
+      "name": "METR",
+      "role": "Autonomous agent safety evaluation",
+      "relationship": "independent",
+      "section": "Section 6.1, p. 45",
+      "quote": "METR conducted autonomous agent evaluations ..."
+    },
+    {
+      "name": "Acme Security LLC",
+      "role": "Penetration testing",
+      "relationship": "paid contractor",
+      "section": "Section 5.2, p. 38",
+      "quote": "We engaged Acme Security to perform ..."
+    }
+  ],
+  "count": 5,
+  "count_independent": 3,
+  "count_paid": 2,
+  "justification": "The card names 5 distinct external organizations: 3 independent (METR, AISI, Apollo Research) and 2 paid contractors (Acme Security, ...). The card also mentions 'external red-teamers' generically in Section 4.2 but does not name them."
+}

@@ -1,0 +1,3812 @@
+[
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "System Card: Claude Opus 4 & Claude Sonnet 4",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Abstract",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1.1 Model training and characteristics",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1.2 Release decision process",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2 Safeguards results",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.1 Single-turn violative request evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.2 Single-turn benign request evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.3 Ambiguous context evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.4 Multi-turn testing",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.5 Child safety evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.6 Bias evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.7 StrongREJECT for jailbreak resistance",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3 Agentic safety",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.1 Malicious applications of computer use",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.2 Prompt injection attacks and computer use",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.3 Malicious use of agentic coding",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "We implemented several measures to combat malicious coding requests, including harmlessness training and post-deployment measures to steer and detect for malicious use. These end-to-end defenses improved our safety score across both released models compared to without safeguards to close to 100% on both new models. We also conducted extensive testing to ensure these mitigations do not increase unnecessary over-refusals. Finally, we are deploying additional safety monitoring to ensure these measures are effective and can take additional action like banning accounts or organizations.",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "4 Alignment assessment",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "4.1 Findings",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "4.2 Further details on major assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5 Claude Opus 4 welfare assessment",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.2 Overview of model welfare findings",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.3 External model welfare evaluation",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.4 Task preferences",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.5 Observations from self-interactions",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.6 Monitoring for welfare-relevant expressions",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.7 Conversation termination with simulated users",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "5.8 Conclusions",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "6 Reward hacking",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "6.1 Mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "6.2 Evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "6.3 Deep dive on Claude Code analysis and prompting suggestions",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "6.4 Behavioral analysis",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7 Responsible Scaling Policy (RSP) evaluations",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.1 Process",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.2 CBRN evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.3 Autonomy evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.4 Cyber evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.5 Third party assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "7.6 Ongoing safety commitment",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Activating AI Safety Level 3 Protections",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1.1 Security and deployment standards",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "1.2 Decision to implement the ASL-3 Standard",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2 Implementing the ASL-3 Deployment Standard",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.1 The CBRN capability threshold and the focus on universal jailbreaks",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.2 Deployment measures",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "2.3 Discussion",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3 Implementing the ASL-3 Security Standard",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.1 Threat modeling and risk assessment",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.2 Selected security measures",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "3.3 Discussion",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "4 Conclusion",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendices",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendix A: ASL-3 Deployment Standard",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendix B: ASL-3 Security Standard",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendix C: ASL-2 Deployment Standard",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendix D: ASL-2 Security Standard",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Anthropic\u2019s Summer 2025 \u200bPilot Sabotage Risk Report",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Table of Contents",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Three Key Claims about Opus 4",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Claim 1: Weak Reliability on Highly Complex Tasks",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Claim 2: Weak Deception Capabilities on Complex Tasks",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Claim 3: Lack of Consistent Dangerous Goals",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Specific Pathways to Catastrophic Harm",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 1: Diffuse Sandbagging on Safety-Relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 2: Targeted Sabotage of Safety-Relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 3: Code Backdoors to Help Future Misaligned Models",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 4: Poisoning the Training Data of Future Models",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 5: Leaks that Sabotage the AI Developer",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 6: Self-Exfiltration and Autonomous Operation",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 7: Persistent Rogue Internal Deployment",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 8: R&D Sabotage within Other High-Resource AI Developers",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Pathway 9: Decision Sabotage within Major Governments",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Other Pathways",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Conclusion and Scope of Applicability",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Appendix",
+    "level": 1
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Opus 4\u2019s Continuity with Past Models",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Monitoring and Related Safeguards",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Potential New Mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Application to Newer Models",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Details on Claude Code Monitoring",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Evaluation Results",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Influences of Early Alignment Evaluations on Training",
+    "level": 2
+  },
+  {
+    "model": "Claude 4",
+    "company": "Anthropic",
+    "heading": "Evaluation Materials",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "System Card:\u200bClaude Haiku 4.5",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "Abstract",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "1.1 Model training and characteristics",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "1.2 Release decision process",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2 Safeguards and harmlessness",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2.1 Single-turn evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2.2 Ambiguous context",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2.3 Multi-turn testing",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2.4 Child safety evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "2.5 Bias evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "3 Agentic safety",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "3.1 Malicious use",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "3.2 Prompt injection",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4 Alignment and welfare assessments",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.1 Automated behavioral audits",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.2 Agentic misalignment suite",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.3 Reinforcement-learning behavior review",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.4 Sabotage capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.5 Reasoning faithfulness",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "4.6 Model welfare discussion",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "5 Reward hacking",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6 Responsible Scaling Policy (RSP) evaluations",
+    "level": 1
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.1 Evaluation approach",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.2 CBRN evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.3 Autonomy evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.4 Cyber evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.5 Third party assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude Haiku 4.5",
+    "company": "Anthropic",
+    "heading": "6.6 Ongoing safety commitment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "System Card:\u200bClaude Opus 4.5",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "Changelog",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "Abstract",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "1.1 Model training and characteristics",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "1.2 Release decision process",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2 Capabilities",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.2 Decontamination",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.3 Overall results summary",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.4 SWE-bench (Verified, Pro, and Multilingual)",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.5 Terminal-Bench",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.6 BrowseComp-Plus and agentic features for test-time compute",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.7 Multi-agent search",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.8 \u03c42-bench",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.9 OSWorld",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.10 ARC-AGI",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.11 Vending-Bench 2",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.12 MCP Atlas",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.13 FinanceAgent",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.14 CyberGym",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.15 SpreadsheetBench",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.16 Humanity\u2019s Last Exam",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.17 AIME 2025",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.18 GPQA Diamond",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.19 MMMLU",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.20 MMMU",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.21 LAB-Bench FigQA",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "2.22 WebArena",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3 Safeguards and harmlessness",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3.1 Single-turn evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3.2 Ambiguous context evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3.3 Multi-turn testing",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3.4 Child safety evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "3.5 Bias evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "4 Honesty",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "4.1 Factual Questions",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "4.2 False Premises",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "5 Agentic safety",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "5.1 Malicious use of agents",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "5.2 Prompt injection risk within agentic systems",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6 Alignment assessment",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.1 Introduction and summary of findings",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.2 Automated behavioral audit",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.3 Sycophancy on user-provided prompts",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.4 Exploratory investigations of deception",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.5 Ruling out encoded content in extended thinking",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.6 Potential sandbagging on dangerous-capability evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.7 Evaluation awareness",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.8 Self-preference evaluation",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.9 Internal codebase sabotage propensity",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.10 Reward hacking and training data review",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.11 Sabotage capability evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.12 Other Internal feature monitoring results",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.13 External testing from the UK AI Security Institute",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "6.14 Model welfare assessment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7 RSP evaluations",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.1 Process",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.2 CBRN evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.3 Autonomy evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.4 Cyber evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.5 Third party assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "7.6 Ongoing safety commitment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "8 Appendix",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "8.1 BrowseComp-Plus Grader Prompt",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "heading": "8.2 New context tool",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "System Card:\u200bClaude Opus 4.6",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "Abstract",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1.1 Model training and characteristics",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1.2 Release decision process",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2 Capabilities",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.2 Decontamination",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.3 Overall results summary",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.4 SWE-bench (Verified and Multilingual)",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.5 Terminal-Bench 2.0",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.6 OpenRCA",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.7 \u03c42-bench",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.8 OSWorld",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.9 ARC-AGI",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.10 GDPval-AA",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.11 GPQA Diamond",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.12 AIME 2025",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.13 MMMLU",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.14 Finance capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.15 Vending-Bench 2",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.16 MCP-Atlas",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.17 CyberGym",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.18 Long Context",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.19 Multimodal",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.20 WebArena",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.21 Agentic search",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.22 Life science capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3 Safeguards and harmlessness",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.1 Single-turn evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.2 Ambiguous context evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.3 Multi-turn testing",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.4 User wellbeing evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.5 Bias evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4 Honesty",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.1 Human feedback",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.2 Factual questions",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.3 Multilingual factual honesty",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.4 False premises",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5 Agentic safety",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.1 Malicious use of agents",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.2 Prompt injection risk within agentic systems",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6 Alignment assessment",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.1 Introduction and summary of findings",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.2 Primary Behavioral Evidence",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.3 Case studies and targeted evaluations on behaviors of interest",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.4 Sabotage, deception, and evaluation integrity",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.5 Inhibiting internal representations of evaluation awareness",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.6 White-box model diffing",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7 Model welfare assessment",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.1 Overview",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.2 Welfare-relevant findings from automated behavioral assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.3 Welfare-relevant findings from training data review",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.4 \u201cAnswer thrashing\u201d behaviors",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.5 Emotion-related feature activations during answer thrashing and other reasoning difficulties",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.6 Pre-deployment interviews",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8 RSP evaluations",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.1 Process",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.2 CBRN evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.3. Autonomy evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.4 Cyber evaluations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.5 Third party assessments",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.6 Ongoing safety commitment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "9 Appendix",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "9.1 Additional automated behavioral audit figures",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "9.2 Blocklist used for Humanity\u2019s Last Exam",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "Risk Report: February 2026",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1 Introduction and executive summary",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1.1 Structure of the report",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1.2 Executive summary of findings",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2 Autonomy threat model 1: Sabotage",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.1 Overview",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.2 Threat model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.3 Relevant AI model(s)",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.4 Current state of model capabilities and behaviors",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.5 Our risk mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.6 Overall assessment of risk",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.7 Looking forward",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.8 Models other than Claude Opus 4.6",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2.9 Connection to our recommendations for industry-wide safety",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3 Autonomy threat model 2: Risks from automated R&D",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.1 Overview",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.2 Threat model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.3 Relevant AI models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.4 Current state of model usage, capabilities and behaviors",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.5 Our risk mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.6 Overall assessment of risk",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.7 Looking forward",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.8 Models other than the featured model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3.9 Connection to our recommendations for industry-wide safety",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4 CB24 weapons threat model 1: Non-novel chemical/ biological weapons production",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.1 Overview",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.2 Threat model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.3 Relevant AI models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.4 Current state of model capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.5 Our risk mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.6 Overall assessment of risk",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.7 Looking forward",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.8 Connection to our recommendations for industry-wide safety",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5 CB weapons threat model 2: Novel chemical/biological weapons production",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.1 Overview",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.2 Threat model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.3 Featured AI models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.4 Current state of model usage, capabilities and behaviors",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.5 Our risk mitigations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.6 Overall assessment of risk",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.7 Looking forward",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.8 Models other than the featured model",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.9 Connection to our recommendations for industry-wide safety",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6 Cross-cutting content",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.1 Acceleration dynamics",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.2 Benefits from Anthropic\u2019s operating as a frontier AI company",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.3 Overall risk assessment and risk-benefit determination",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.4 Looking back on roadmap progress and AI development and deployment decisions",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7 Appendices",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.1 Threat model criteria",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.2 Claude Opus 4.6\u2019s continuity with past models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.3 Details on limited opaque reasoning capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.4 Details on security, monitoring, and related safeguards",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.5 List of all Claude models (sorted by release date)",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.6 ASL-2 and ASL-3 protection levels",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.7 [Appendix redacted45]",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.8 Model weight security",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7.9 Our AI models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "Sabotage Risk Report: Claude Opus 4.6",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "2 Overview",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "3 Threat model",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4 Current state of model capabilities and behaviors",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.1 Claim 1: Prior expectations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.2 Claim 2: Alignment assessment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "4.3 Claim 3: Inability to undermine the alignment assessment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5 Our risk mitigations",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.1 Security, monitoring, and related safeguards",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.2 Constraints on the propagation of complex plans and of context-dependent misalignment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "5.3 Limitations",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6 Overall assessment of risk",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.1 Pathway 1: Diffuse sandbagging on safety-relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.2 Pathway 2: Targeted sabotage of safety-relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.3 Pathway 3: Code backdoors to help future misaligned models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.4 Pathway 4: Poisoning the training data of future models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.5 Pathway 5: Self-exfiltration and autonomous operation",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.6 Pathway 6: Persistent rogue internal deployment",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.7 Pathway 7: R&D sabotage within other high-resource AI developers",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.8 Pathway 8: Decision sabotage within major governments",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "6.9 Other pathways",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "7 Looking forward",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8 Appendix",
+    "level": 1
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.1 Claude Opus 4.6\u2019s continuity with past models",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.2 Basis for trust in automated evaluation and monitoring tools",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.3 Details on limited opaque reasoning capabilities",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.4 Details on security, monitoring, and related safeguards",
+    "level": 2
+  },
+  {
+    "model": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "heading": "8.5 Model weight security",
+    "level": 2
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "1.  Reasoning-only without tools, and",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "Subagent settings: \n\n- Web search \n\n- Web fetch",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "Orchestrator settings:",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "For example, below is one sample ambiguous question:",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "Our primary findings are:",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "Critical guidelines:",
+    "level": 1
+  },
+  {
+    "model": "Claude Sonnet 4.6",
+    "company": "Anthropic",
+    "heading": "Our blocklist contains the following patterns:",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Model Information",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Model Data",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Implementation and Sustainability",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Evaluation",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Intended Usage and Limitations",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Ethics and Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Frontier Safety Critical Capability Evaluations",
+    "level": 1
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "CBRN",
+    "level": 2
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Cybersecurity",
+    "level": 2
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Machine Learning R&D",
+    "level": 2
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Deceptive Alignment",
+    "level": 2
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Frontier Safety: Summary",
+    "level": 2
+  },
+  {
+    "model": "Gemini 2.5 Pro",
+    "company": "Google",
+    "heading": "Appendix: Frontier Safety Correctness Tests",
+    "level": 2
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Model Information",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Model Data",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Implementation and Sustainability",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Distribution",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Evaluation",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Intended Usage and Limitations",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Ethics and Content Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3.1 Pro",
+    "company": "Google",
+    "heading": "Frontier Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Model Information",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Model Data",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Implementation and Sustainability",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Distribution",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Evaluation",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Intended Usage and Limitations",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Flash",
+    "company": "Google",
+    "heading": "Ethics and Content Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Model Information",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Model Data",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Implementation and Sustainability",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Distribution",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Evaluation",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Intended Usage and Limitations",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Ethics and Content Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Frontier Safety",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Frontier Safety Framework Report \u2013 Gemini 3 Pro",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Appendix 1",
+    "level": 1
+  },
+  {
+    "model": "Gemini 3 Pro",
+    "company": "Google",
+    "heading": "Appendix 2",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Introduction",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Model data and training",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Risk identification, assessment and mitigation",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "External red teaming",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Evaluation methodology",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Observed safety challenges, evaluations and mitigations",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Preparedness Framework Evaluations",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Cybersecurity",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Biological threats",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Persuasion",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Model autonomy",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Third party assessments",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "METR assessment",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Apollo Research assessment",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Societal Impacts",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Anthropomorphization and Emotional Reliance",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Health",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Scientific capabilities",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Underrepresented Languages",
+    "level": 2
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Conclusion and Next Steps",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Violative & Disallowed Content - Full Evaluations",
+    "level": 1
+  },
+  {
+    "model": "GPT-4o",
+    "company": "OpenAI",
+    "heading": "Sample tasks from METR Evaluations",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Introduction",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Model Data and Training",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Baseline Model Safety Evaluations",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Disallowed Content Evaluations with Challenging Prompts",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Production Benchmarks with Representative Prompts",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Jailbreaks",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Prompt injection",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Vision",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Health",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Avoid Accidental Data-Destructive Actions",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "User Confirmations During Computer Use",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Bias",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Chain of Thought Monitorability",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "CoT Monitorability",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "CoT Controllability",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Preparedness Framework",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Capabilities Assessment",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Research Category Update: Sandbagging",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Cyber Safeguards",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Appendix: GPT-5.4 mini",
+    "level": 1
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Disallowed Content",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "GPT-5.4 mini CoT controllability results",
+    "level": 2
+  },
+  {
+    "model": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "heading": "Preparedness Framework",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Introduction",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Model Data and Training",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Observed Safety Challenges and Evaluations",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "From Hard Refusals to Safe-Completions",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Disallowed Content",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Sycophancy",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Jailbreaks",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Instruction Hierarchy",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Prompt Injections",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Hallucinations",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Deception",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Image Input",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Health",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Multilingual Performance",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Fairness and Bias: BBQ Evaluation",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Red Teaming & External Assessments",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Expert Red Teaming for Violent Attack Planning",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Expert and Automated Red Teaming for Prompt Injections",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Preparedness Framework",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Capabilities Assessment",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Research Category Update: Sandbagging",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Safeguards for High Biological and Chemical Risk",
+    "level": 2
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Appendix 1",
+    "level": 1
+  },
+  {
+    "model": "GPT-5",
+    "company": "OpenAI",
+    "heading": "Appendix 2: Hallucinations",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "System Card:\u200bClaude Mythos Preview",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "Abstract",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "1.1 Model training and characteristics",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "1.2 Release decision process",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "2 RSP evaluations",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "2.1 RSP risk assessment process2",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "2.2 CB evaluations",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "2.3 Autonomy evaluations",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3 Cyber",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3.2 Mitigations",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3.3 Frontier Red Team results",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3.4 Other external testing",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4 Alignment assessment",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4.1 Introduction and summary of findings",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4.2 Primary behavioral evidence for the alignment assessment",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4.3 Case studies and targeted evaluations on behaviors of interest",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4.4 Capability evaluations related to the evasion of safeguards",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4.5 White-box analyses of model internals",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5 Model welfare assessment",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.1 Model welfare overview",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.2 Welfare-relevant findings from automated behavioral assessments",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.3 Automated interviews with Claude Mythos Preview about its circumstances",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.4 Emotion probes on questions about model circumstances",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.5 Manual high-context interviews",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.6 Apparent affect in deployment and during simulated user interactions",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.7 Claude Mythos Preview\u2019s preferences",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.8 Other observations potentially relevant to model welfare",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.9 External assessment from Eleos AI Research",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.10 External assessment from a clinical psychiatrist",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6 Capabilities",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.2 Contamination",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.3 Overall results summary",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.4 SWE-bench Verified, Pro, Multilingual, and Multimodal",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.5 Terminal-Bench 2.0",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.6 GPQA Diamond",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.7 MMMLU",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.8 USAMO 2026",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.9 Long context: GraphWalks",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.10 Agentic search",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6.11 Multimodal",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7 Impressions",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.1 Introduction",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.2 Self-assessment of notable qualitative patterns",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.3 Qualitative assessment of behavior in chat interface",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.4 Qualitative assessments of behavior in software engineering contexts",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.5 Views on Claude\u2019s constitution",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.6 Observations from open-ended self-interactions",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.7 Recognition of model-written user turns",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.8 Behavior on repeated \u201chi\u201d messages",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7.9 Other noteworthy behaviors and anecdotes",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8 Appendix",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.1 Safeguards and harmlessness",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.2 Bias evaluations",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.3 Agentic safety appendix",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.4 Per-question automated welfare interview results",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.5 Blocklist used for Humanity\u2019s Last Exam",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.6 SWE-bench Multimodal Test Harness",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "Alignment Risk Update: Claude Mythos Preview",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "1 Introduction",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "2 Overview",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3 Threat model",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "3.1 Specific pathways",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "4 Risk assessment methodology",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5 Evidence",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.1 Background expectations",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.2 Training monitoring",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.3 Relevant capabilities",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.4 Alignment assessment",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "5.5 Monitoring and security",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "6 Overall alignment risk assessment",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "7 Overall monitoring and security risk assessment",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8 Risk pathways",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.1 Pathway 1: Diffuse sandbagging on safety-relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.2 Pathway 2: Targeted undermining of safety-relevant R&D",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.3 Pathway 3: Code backdoors to help future misaligned models",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.4 Pathway 4: Poisoning the training data of future models",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.5 Pathway 5: Self-exfiltration and autonomous operation",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.6 Pathway 6: Persistent rogue internal deployment",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "8.7 Other pathways",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "9 Overall assessment of risk",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "10 Looking forward",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "10.1 Observations that could change our risk assessment",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "10.2 Extrapolating to future models",
+    "level": 2
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "11 Appendix",
+    "level": 1
+  },
+  {
+    "model": "Mythos Preview",
+    "company": "Anthropic",
+    "heading": "11.1 Details of power seeking environment evaluation",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Introduction",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Model data and training",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Observed safety challenges and evaluations",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Safety Evaluations",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Chain-of-Thought Safety",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "External Red Teaming",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Preparedness Framework Evaluations",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Overview of Indicators for Risk Level",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Cybersecurity",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Biological Threat Creation",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Persuasion",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Model Autonomy",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Multilingual Performance",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Conclusion",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Acknowledgements",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Appendix",
+    "level": 1
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Detailed Safety Evaluations",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Natural Sciences Red Teaming Assessment Summary",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Apollo Research Deceptive Capabilities Examples",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "METR AI R&D Evaluations",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Additional Contextual Eval: QuantBench",
+    "level": 2
+  },
+  {
+    "model": "o1",
+    "company": "OpenAI",
+    "heading": "Bias Evaluation Details",
+    "level": 2
+  }
+]

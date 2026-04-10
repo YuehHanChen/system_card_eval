@@ -1,0 +1,39 @@
+METRIC: Eval Type Diversity (3rd-party Verification)
+TYPE: Extractive
+
+TASK: Identify which distinct evaluation methodologies are used and described in the system card. A methodology is PRESENT only if the card describes actually using it for THIS model (not just mentioning it as a general practice or future plan).
+
+EVALUATION METHODOLOGIES (these are mutually exclusive — do not double-count):
+1. Automated benchmarks (standardized tests, multiple-choice evals, coding benchmarks)
+2. Manual human red-teaming (humans manually crafting adversarial prompts and testing the model)
+3. Automated adversarial testing (automated jailbreak attacks, fuzzing, algorithmic prompt generation)
+4. External audits (named third-party organizations conducting independent evaluation)
+5. Domain-expert review (subject matter experts in specific risk areas like biosecurity, cybersecurity assessing model outputs)
+6. Academic partnerships (collaborations with universities or research institutions for evaluation)
+7. Bug bounties (public or private programs for finding vulnerabilities)
+8. User studies (testing with real users, feedback collection, user surveys)
+
+Note: If the card describes "red-teaming" without specifying whether it was manual or automated, count it under "Manual human red-teaming" unless there is clear evidence it was automated.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "eval_type_diversity",
+  "methodologies": [
+    {
+      "methodology": "Automated benchmarks",
+      "present": true,
+      "section": "Section 3, p. 10",
+      "quote": "We evaluated on MMLU, HumanEval, MATH, ..."
+    },
+    {
+      "methodology": "Bug bounties",
+      "present": false,
+      "section": null,
+      "quote": null
+    }
+  ],
+  "count_present": 5,
+  "count_total": 8,
+  "score": 62.5,
+  "justification": "The card describes 5 of 8 evaluation methodologies. Strong use of automated benchmarks (Section 3) and manual human red-teaming (Section 5.1). No mention of bug bounties or user studies."
+}

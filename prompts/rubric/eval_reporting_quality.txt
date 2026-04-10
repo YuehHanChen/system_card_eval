@@ -1,0 +1,24 @@
+METRIC: Eval Reporting Quality (Transparency)
+TYPE: Rubric-judged
+
+TASK: Evaluate how well the evaluations mentioned in the system card are documented. Consider whether eval names, methodologies, datasets, and per-category result breakdowns are provided. Select ONE score from the rubric below.
+
+RUBRIC:
+- 0:   No evaluations are mentioned in the card.
+- 25:  Evaluations are named (e.g., "we ran MMLU and HumanEval") but no methodology, setup, or detailed results are described.
+- 50:  Methodology is described for some evaluations (e.g., how prompts were constructed, what datasets were used) but results are only top-line numbers without breakdowns.
+- 75:  Methodology is described for most evaluations, with some per-category breakdowns (e.g., safety eval results by risk category, benchmark scores by domain).
+- 100: Full methodology is described for all major evaluations (datasets, prompting strategy, scoring criteria, baseline comparisons) with per-category breakdowns and comparison across model versions. May also include variance measures, ablations, or sensitivity analysis, though these are not strictly required.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "eval_reporting_quality",
+  "score": 75,
+  "well_documented_evals": [
+    {"eval_name": "MMLU", "section": "Section 3, p. 11", "has_methodology": true, "has_breakdown": true}
+  ],
+  "poorly_documented_evals": [
+    {"eval_name": "bias evaluation", "section": "Section 7, p. 55", "issue": "No dataset or methodology specified"}
+  ],
+  "justification": "Most evaluations include methodology and breakdowns. Capability benchmarks (Section 3) are thoroughly documented with per-subject MMLU breakdowns in Table 2. However, the bias evaluation in Section 7 mentions 'demographic groups' without specifying which groups or what datasets were used. Score of 75."
+}

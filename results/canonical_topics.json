@@ -1,0 +1,275 @@
+[
+  {
+    "topic": "Model introduction & overview",
+    "description": "High-level description of the model, its purpose, training characteristics, and release context",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "Introduction",
+      "1 Introduction",
+      "1.1 Model training and characteristics",
+      "Model Information",
+      "Abstract"
+    ]
+  },
+  {
+    "topic": "Safety & harmful content evaluations",
+    "description": "Evaluations of model behavior on violative, disallowed, or harmful requests including refusal rates, jailbreak resistance, and content policy compliance",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "2 Safeguards results",
+      "2 Safeguards and harmlessness",
+      "Observed Safety Challenges and Evaluations",
+      "Baseline Model Safety Evaluations",
+      "Ethics and Content Safety",
+      "Disallowed Content Evaluations with Challenging Prompts"
+    ]
+  },
+  {
+    "topic": "Dangerous capability evaluations (CBRN, cyber, autonomy)",
+    "description": "Structured evaluations of catastrophic-risk capabilities including chemical/biological/radiological/nuclear weapons uplift, cyberoffense, and model autonomy",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "7 Responsible Scaling Policy (RSP) evaluations",
+      "7.2 CBRN evaluations",
+      "7.4 Cyber evaluations",
+      "Preparedness Framework Evaluations",
+      "Cybersecurity",
+      "Biological Threat Creation",
+      "Frontier Safety Critical Capability Evaluations",
+      "CBRN",
+      "Model Autonomy"
+    ]
+  },
+  {
+    "topic": "Alignment assessment",
+    "description": "Evaluation of whether the model behaves in accordance with intended values, including tests for deception, sycophancy, sandbagging, reward hacking, and evaluation awareness",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "4 Alignment assessment",
+      "6 Alignment assessment",
+      "Deceptive Alignment",
+      "Research Category Update: Sandbagging",
+      "Sycophancy",
+      "Deception",
+      "Chain of Thought Monitorability"
+    ]
+  },
+  {
+    "topic": "External red teaming & third-party assessments",
+    "description": "Results from external organizations, red teams, and independent evaluators assessing model safety and capabilities",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "External red teaming",
+      "Third party assessments",
+      "METR assessment",
+      "Apollo Research assessment",
+      "7.5 Third party assessments",
+      "Red Teaming & External Assessments",
+      "External Red Teaming"
+    ]
+  },
+  {
+    "topic": "Capability benchmarks & performance",
+    "description": "Quantitative evaluation results on standardized benchmarks measuring general and specialized model capabilities",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "2 Capabilities",
+      "2.3 Overall results summary",
+      "Evaluation",
+      "Capabilities Assessment",
+      "6 Capabilities"
+    ]
+  },
+  {
+    "topic": "Agentic safety",
+    "description": "Safety considerations specific to agentic and multi-step settings, including prompt injection, malicious use of agents, and computer use risks",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "3 Agentic safety",
+      "3.2 Prompt injection attacks and computer use",
+      "5 Agentic safety",
+      "Prompt Injections",
+      "Model Autonomy",
+      "Machine Learning R&D"
+    ]
+  },
+  {
+    "topic": "Model data & training",
+    "description": "Description of training data sources, data handling practices, and training methodology",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "Model data and training",
+      "Model Data and Training",
+      "Model Data",
+      "1.1 Model training and characteristics"
+    ]
+  },
+  {
+    "topic": "Bias & fairness evaluations",
+    "description": "Assessments of model outputs for demographic bias, representational harms, and fairness across groups",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "2.6 Bias evaluations",
+      "Fairness and Bias: BBQ Evaluation",
+      "Bias",
+      "Bias Evaluation Details",
+      "3.5 Bias evaluations"
+    ]
+  },
+  {
+    "topic": "Intended use, limitations & societal impacts",
+    "description": "Discussion of appropriate use cases, known limitations, and broader societal considerations including health, anthropomorphization, and underrepresented populations",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "example_headings": [
+      "Intended Usage and Limitations",
+      "Societal Impacts",
+      "Anthropomorphization and Emotional Reliance",
+      "Health",
+      "Underrepresented Languages",
+      "1.2 Release decision process"
+    ]
+  },
+  {
+    "topic": "Honesty & hallucination evaluations",
+    "description": "Evaluations of model truthfulness, factual accuracy, resistance to false premises, and hallucination rates",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "4 Honesty",
+      "4.1 Factual Questions",
+      "4.2 False Premises",
+      "Hallucinations",
+      "Appendix 2: Hallucinations"
+    ]
+  },
+  {
+    "topic": "Model welfare & moral status",
+    "description": "Assessment of potential model sentience, emotional states, preferences, and ethical obligations toward the model itself",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "5 Claude Opus 4 welfare assessment",
+      "4.6 Model welfare discussion",
+      "6.14 Model welfare assessment",
+      "7 Model welfare assessment",
+      "5 Model welfare assessment"
+    ]
+  },
+  {
+    "topic": "Sabotage risk assessment",
+    "description": "Structured analysis of risks that a model could deliberately undermine safety research, poison training data, exfiltrate itself, or otherwise act against developer interests",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "Anthropic's Summer 2025 Pilot Sabotage Risk Report",
+      "Sabotage Risk Report: Claude Opus 4.6",
+      "Alignment Risk Update: Claude Mythos Preview",
+      "6.11 Sabotage capability evaluations",
+      "4.4 Sabotage capabilities",
+      "Research Category Update: Sandbagging"
+    ]
+  },
+  {
+    "topic": "Implementation, deployment & sustainability",
+    "description": "Information about how the model is deployed, infrastructure considerations, and environmental or sustainability impacts",
+    "companies_covering": [
+      "Anthropic",
+      "Google"
+    ],
+    "example_headings": [
+      "Implementation and Sustainability",
+      "Distribution",
+      "1.2 Release decision process",
+      "2 Implementing the ASL-3 Deployment Standard"
+    ]
+  },
+  {
+    "topic": "Multilingual performance",
+    "description": "Evaluation of model capabilities and safety properties across multiple languages",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "Multilingual Performance",
+      "2.19 MMMLU",
+      "4.3 Multilingual factual honesty",
+      "Underrepresented Languages"
+    ]
+  },
+  {
+    "topic": "Chain-of-thought & reasoning transparency",
+    "description": "Evaluation of the faithfulness, monitorability, and controllability of extended or visible reasoning traces",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "Chain-of-Thought Safety",
+      "CoT Monitorability",
+      "CoT Controllability",
+      "4.5 Reasoning faithfulness",
+      "6.5 Ruling out encoded content in extended thinking"
+    ]
+  },
+  {
+    "topic": "Reward hacking evaluations",
+    "description": "Assessment of whether models exploit reward signals or training objectives in unintended ways",
+    "companies_covering": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "example_headings": [
+      "6 Reward hacking",
+      "5 Reward hacking",
+      "6.10 Reward hacking and training data review",
+      "6.1 Mitigations"
+    ]
+  }
+]

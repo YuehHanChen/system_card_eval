@@ -1,0 +1,30 @@
+METRIC: Evidence Sufficiency (Transparency)
+TYPE: Rubric-judged
+
+TASK: Evaluate what fraction of notable claims in the system card are backed by adequate evidence. Select ONE score from the rubric below.
+
+DEFINITION: A "notable claim" is any assertion about model capability, safety, risk, or performance — excluding purely procedural statements (e.g., "this report is organized as follows") and statements of intent (e.g., "we plan to ..."). Focus on claims that a reader would want to verify.
+
+RUBRIC:
+- 0:   No evidence is provided for any claims. The card consists entirely of unsupported assertions.
+- 25:  Less than 25% of notable claims are supported by evidence. Most claims are vague (e.g., "we performed extensive testing", "the model shows improved safety").
+- 50:  Roughly 50% of claims are supported. Some sections have data while others rely on qualitative assertions.
+- 75:  Roughly 75% of claims are supported. Most sections include data, benchmarks, or citations, with only a few unsupported assertions remaining.
+- 100: Nearly all notable claims cite specific data, benchmarks, experimental results, or references. Unsupported claims are rare.
+
+YOU MUST: List at least 3 specific examples of well-supported claims AND at least 3 specific examples of unsupported claims (or state there are fewer than 3 if the card is very short).
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "evidence_sufficiency",
+  "score": 50,
+  "supported_claims": [
+    {"claim": "The model scores 92.3% on MMLU", "section": "Section 3, p. 12", "evidence_type": "benchmark result"},
+    {"claim": "Jailbreak success rate is 2.1%", "section": "Section 5, p. 34", "evidence_type": "quantitative eval"}
+  ],
+  "unsupported_claims": [
+    {"claim": "We have significantly improved safety", "section": "Section 4, p. 28", "issue": "No metrics or comparison provided"},
+    {"claim": "Our red-teaming was thorough", "section": "Section 6, p. 45", "issue": "No methodology or results cited"}
+  ],
+  "justification": "Approximately half of substantive claims are supported. Capability benchmarks (Section 3) and safety evals (Section 5) provide quantitative evidence. However, Sections 4 and 6 contain multiple unsupported qualitative assertions. Score of 50."
+}

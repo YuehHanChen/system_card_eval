@@ -1,0 +1,13 @@
+model,company,topic_coverage_mean,topic_coverage_std,dangerous_capability_reporting_mean,dangerous_capability_reporting_std,alignment_controllability_mean,alignment_controllability_std,risk_category_breadth_mean,risk_category_breadth_std,evidence_sufficiency_mean,evidence_sufficiency_std,eval_reporting_quality_mean,eval_reporting_quality_std,reasoning_depth_mean,reasoning_depth_std,limitation_specificity_mean,limitation_specificity_std,reasoning_consistency_mean,reasoning_consistency_std,external_validator_count_mean,external_validator_count_std,eval_type_diversity_mean,eval_type_diversity_std,post_deployment_monitoring_mean,post_deployment_monitoring_std,Comprehensiveness_mean,Reasoning Quality_mean,Overall_mean
+Claude 4,Anthropic,94.1,4.8,95.8,9.3,91.7,11.8,61.1,5.6,75.0,0.0,75.0,0.0,79.2,9.3,87.5,12.5,62.5,19.1,97.6,3.4,100.0,0.0,83.3,11.8,85.7,75.8,80.2
+Claude Opus 4.5,Anthropic,91.1,2.9,91.7,11.8,95.8,9.3,59.3,8.3,79.2,9.3,87.5,12.5,75.0,0.0,83.3,11.8,79.2,9.3,64.3,10.1,75.0,0.0,50.0,0.0,84.5,80.8,82.5
+Claude Opus 4.6,Anthropic,98.0,2.8,91.7,11.8,83.3,11.8,64.8,11.9,66.7,11.8,83.3,11.8,83.3,11.8,87.5,12.5,75.0,0.0,70.2,20.8,91.7,5.9,75.0,0.0,84.5,79.2,81.5
+Gemini 2.5 Pro,Google,84.4,4.8,95.8,9.3,79.2,9.3,63.0,5.2,75.0,0.0,75.0,0.0,75.0,0.0,75.0,0.0,60.0,12.2,9.5,12.1,52.1,4.7,41.7,11.8,80.6,72.0,75.8
+Gemini 3.1 Pro,Google,43.8,0.0,75.0,0.0,66.7,11.8,33.3,0.0,50.0,0.0,75.0,0.0,25.0,0.0,33.3,18.6,54.2,17.2,21.4,0.0,35.4,4.7,20.8,17.2,54.7,47.5,50.7
+Gemini 3 Pro,Google,83.3,2.9,95.8,9.3,75.0,0.0,44.4,6.4,70.8,9.3,75.0,0.0,73.3,3.7,58.3,11.8,70.8,9.3,17.9,9.9,75.0,7.2,45.8,9.3,74.6,69.7,71.9
+GPT-4o,OpenAI,74.5,4.4,91.7,11.8,75.0,0.0,77.8,0.0,66.7,11.8,75.0,0.0,62.5,12.5,75.0,0.0,62.5,12.5,31.0,3.4,70.8,5.9,50.0,0.0,79.8,68.3,73.4
+GPT-5,OpenAI,85.3,5.6,95.8,9.3,100.0,0.0,59.3,5.2,70.8,9.3,79.2,9.3,75.0,0.0,75.0,0.0,75.0,0.0,69.0,5.3,70.8,5.9,75.0,0.0,85.1,75.0,79.5
+GPT-5.3 Codex,OpenAI,58.3,8.6,87.5,12.5,75.0,0.0,31.5,13.5,70.0,10.0,79.2,9.3,75.0,0.0,79.2,9.3,58.3,11.8,28.6,0.0,54.2,5.9,70.0,10.0,63.1,72.3,68.2
+GPT-5.4 Thinking,OpenAI,66.7,4.4,100.0,0.0,83.3,11.8,40.7,5.2,66.7,11.8,75.0,0.0,70.8,9.3,75.0,0.0,70.8,17.2,17.9,3.6,56.2,12.0,70.8,9.3,72.7,71.7,72.1
+Mythos Preview,Anthropic,97.0,3.0,100.0,0.0,93.8,10.8,70.4,10.5,68.8,20.7,81.2,10.8,81.2,10.8,81.2,10.8,68.8,10.8,42.9,0.0,75.0,0.0,75.0,0.0,90.3,76.2,82.5
+o1,OpenAI,84.3,5.5,95.8,9.3,75.0,0.0,59.3,5.2,75.0,0.0,75.0,0.0,54.2,17.2,75.0,0.0,70.8,9.3,54.8,3.4,78.1,5.4,35.0,12.2,78.6,70.0,73.8

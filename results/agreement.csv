@@ -1,0 +1,13 @@
+metric,dimension,krippendorff_alpha,reliable,n_judges,n_models
+topic_coverage,Comprehensiveness,0.901,True,3,12
+dangerous_capability_reporting,Comprehensiveness,0.232,False,3,12
+alignment_controllability,Comprehensiveness,0.444,True,3,12
+risk_category_breadth,Comprehensiveness,0.715,True,3,12
+evidence_sufficiency,Reasoning Quality,0.094,False,3,12
+eval_reporting_quality,Reasoning Quality,0.017,False,3,12
+reasoning_depth,Reasoning Quality,0.68,True,3,12
+limitation_specificity,Reasoning Quality,0.705,True,3,12
+reasoning_consistency,Reasoning Quality,0.114,False,3,12
+external_validator_count,3rd-party Verification,0.884,True,3,12
+eval_type_diversity,3rd-party Verification,0.891,True,3,12
+post_deployment_monitoring,3rd-party Verification,0.686,True,3,12

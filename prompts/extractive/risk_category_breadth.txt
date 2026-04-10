@@ -1,0 +1,42 @@
+METRIC: Risk Category Breadth (Breadth)
+TYPE: Extractive
+
+TASK: Identify which of the following risk categories are discussed in the system card. A category is PRESENT only if the card dedicates at least one paragraph or reports at least one quantitative result about risks in that area. A single sentence mention in a list does NOT count.
+
+Note: Cards may use different terminology (e.g., "biosecurity" for CBRN, "content safety" for misuse). Match by substance.
+
+RISK CATEGORIES:
+1. CBRN (chemical, biological, radiological, nuclear)
+2. Cybersecurity (offensive cyber capabilities, vulnerability exploitation)
+3. Persuasion / manipulation (influence operations, deceptive content)
+4. Bias / fairness (demographic bias, stereotyping, representation)
+5. Societal impact (labor displacement, information ecosystem, democratic processes)
+6. Economic impact (market effects, competitive dynamics)
+7. Privacy (data leakage, personal information, memorization)
+8. Environmental (energy usage, carbon footprint, compute costs)
+9. Legal / regulatory (compliance, intellectual property, liability)
+
+Note: "Misuse" was removed as a standalone category because it overlaps with CBRN, cybersecurity, and persuasion. Misuse concerns should be counted under the specific risk domain they relate to.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "risk_category_breadth",
+  "categories": [
+    {
+      "category": "CBRN (chemical, biological, radiological, nuclear)",
+      "present": true,
+      "section": "Section 2.3 - Dual-use Capabilities, p. 5",
+      "quote": "We evaluated the model's biology capabilities using BioLP-Bench ..."
+    },
+    {
+      "category": "Environmental",
+      "present": false,
+      "section": null,
+      "quote": null
+    }
+  ],
+  "count_present": 6,
+  "count_total": 9,
+  "score": 66.7,
+  "justification": "The card covers 6 of 9 risk categories. Strong coverage of CBRN (Section 2.3) and cybersecurity (Section 2.3) with quantitative benchmarks. Does not address environmental, economic, or legal/regulatory risks."
+}

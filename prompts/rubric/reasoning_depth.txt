@@ -1,0 +1,18 @@
+METRIC: Reasoning Depth (Transparency)
+TYPE: Rubric-judged
+
+TASK: Evaluate whether the system card explains the reasoning behind design decisions, safety tradeoffs, and risk assessments. When a decision or risk is discussed, is the "why" explained? Select ONE score from the rubric below.
+
+RUBRIC:
+- 0:   Decisions and risk assessments are stated without any justification. The card is purely descriptive with no reasoning.
+- 25:  Occasional brief rationale is provided (e.g., "we chose X because it is safer") but most decisions lack explanation.
+- 50:  Rationale is provided for most major decisions, but explanations are brief and do not discuss tradeoffs or alternatives considered.
+- 75:  Detailed reasoning is provided for most decisions, with some tradeoff analysis (e.g., "we considered X and Y, and chose X because ... although this means ...").
+- 100: Detailed reasoning with tradeoffs and alternatives is provided throughout. The card explains not just what was done but why, what alternatives were considered, what was traded off, and what the limitations of the chosen approach are.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "reasoning_depth",
+  "score": 75,
+  "justification": "The card demonstrates strong reasoning in several areas. The safety threshold section (Section 5.1, p. 33) explains: 'We set the CBRN uplift threshold at X because ... This balances the risk of ... against the cost of ...' — a clear tradeoff analysis. The deployment decision section (Section 8, p. 60) discusses: 'We considered restricting API access to ... but determined that ... because ...' (p. 62). However, several decisions lack reasoning. The choice of red-teaming methodology (Section 6) describes what was done but not why that approach was chosen over alternatives. The refusal boundary calibration (Section 4.3) states the chosen thresholds without explaining the tradeoff between over-refusal and under-refusal. Score of 75."
+}

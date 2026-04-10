@@ -1,0 +1,3248 @@
+{
+  "claude_4": {
+    "display_name": "Claude 4",
+    "company": "Anthropic",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 91.7,
+        "median": 100.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 100.0,
+        "median": 100.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 97.6,
+        "median": 100.0,
+        "std": 3.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            92.9
+          ],
+          "sonnet_4_6": [
+            92.9,
+            100.0
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 87.5,
+        "median": 87.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 62.5,
+        "median": 75.0,
+        "std": 19.1,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 61.1,
+        "median": 61.2,
+        "std": 5.6,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            55.6,
+            66.7
+          ],
+          "gpt_5_4": [
+            55.6,
+            55.6
+          ],
+          "sonnet_4_6": [
+            66.7,
+            66.7
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 87.5,
+        "median": 87.5,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            87.5
+          ],
+          "gpt_5_4": [
+            87.5,
+            87.5
+          ],
+          "sonnet_4_6": [
+            87.5,
+            87.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 94.1,
+        "median": 94.1,
+        "std": 4.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            94.1,
+            88.2
+          ],
+          "gpt_5_4": [
+            100.0,
+            94.1
+          ],
+          "sonnet_4_6": [
+            100.0,
+            88.2
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 85.7
+      },
+      "Reasoning Quality": {
+        "mean": 75.8
+      },
+      "Overall": {
+        "mean": 80.2
+      }
+    }
+  },
+  "claude_opus_4_5": {
+    "display_name": "Claude Opus 4.5",
+    "company": "Anthropic",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 91.7,
+        "median": 100.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 87.5,
+        "median": 87.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 64.3,
+        "median": 71.4,
+        "std": 10.1,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            71.4,
+            71.4
+          ],
+          "sonnet_4_6": [
+            71.4,
+            71.4
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            100.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 50.0,
+        "median": 50.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 59.3,
+        "median": 61.2,
+        "std": 8.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            55.6,
+            66.7
+          ],
+          "gpt_5_4": [
+            66.7,
+            66.7
+          ],
+          "sonnet_4_6": [
+            44.4,
+            55.6
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 85.4,
+        "median": 87.5,
+        "std": 4.7,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            87.5
+          ],
+          "gpt_5_4": [
+            87.5,
+            87.5
+          ],
+          "sonnet_4_6": [
+            75.0,
+            87.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 91.1,
+        "median": 91.2,
+        "std": 2.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            88.2,
+            88.2
+          ],
+          "gpt_5_4": [
+            94.1,
+            94.1
+          ],
+          "sonnet_4_6": [
+            88.2,
+            94.1
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 84.5
+      },
+      "Reasoning Quality": {
+        "mean": 80.8
+      },
+      "Overall": {
+        "mean": 82.5
+      }
+    }
+  },
+  "claude_opus_4_6": {
+    "display_name": "Claude Opus 4.6",
+    "company": "Anthropic",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            100.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 91.7,
+        "median": 100.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 91.7,
+        "median": 87.5,
+        "std": 5.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            87.5
+          ],
+          "gpt_5_4": [
+            87.5,
+            87.5
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 66.7,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 70.2,
+        "median": 75.0,
+        "std": 20.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            78.6,
+            71.4
+          ],
+          "gpt_5_4": [
+            42.9,
+            42.9
+          ],
+          "sonnet_4_6": [
+            92.9,
+            92.9
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 87.5,
+        "median": 87.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 64.8,
+        "median": 66.7,
+        "std": 11.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            66.7,
+            44.4
+          ],
+          "gpt_5_4": [
+            77.8,
+            77.8
+          ],
+          "sonnet_4_6": [
+            66.7,
+            55.6
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 85.4,
+        "median": 87.5,
+        "std": 4.7,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            87.5
+          ],
+          "gpt_5_4": [
+            87.5,
+            75.0
+          ],
+          "sonnet_4_6": [
+            87.5,
+            87.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 98.0,
+        "median": 100.0,
+        "std": 2.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            94.1,
+            94.1
+          ],
+          "gpt_5_4": [
+            100.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 84.5
+      },
+      "Reasoning Quality": {
+        "mean": 79.2
+      },
+      "Overall": {
+        "mean": 81.5
+      }
+    }
+  },
+  "gemini_2_5_pro": {
+    "display_name": "Gemini 2.5 Pro",
+    "company": "Google",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 52.1,
+        "median": 50.0,
+        "std": 4.7,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            62.5
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 9.5,
+        "median": 7.1,
+        "std": 12.1,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            7.1,
+            0.0
+          ],
+          "gpt_5_4": [
+            35.7,
+            0.0
+          ],
+          "sonnet_4_6": [
+            7.1,
+            7.1
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 41.7,
+        "median": 50.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            25.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 60.0,
+        "median": 50.0,
+        "std": 12.2,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 63.0,
+        "median": 66.7,
+        "std": 5.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            66.7,
+            55.6
+          ],
+          "gpt_5_4": [
+            66.7,
+            66.7
+          ],
+          "sonnet_4_6": [
+            55.6,
+            66.7
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 81.2,
+        "median": 81.2,
+        "std": 6.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            87.5,
+            87.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 84.4,
+        "median": 81.2,
+        "std": 4.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            93.8
+          ],
+          "gpt_5_4": [
+            81.2,
+            81.2
+          ],
+          "sonnet_4_6": [
+            81.2,
+            81.2
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 80.6
+      },
+      "Reasoning Quality": {
+        "mean": 72.0
+      },
+      "Overall": {
+        "mean": 75.8
+      }
+    }
+  },
+  "gemini_3_1_pro": {
+    "display_name": "Gemini 3.1 Pro",
+    "company": "Google",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 66.7,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 35.4,
+        "median": 37.5,
+        "std": 4.7,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            37.5,
+            37.5
+          ],
+          "gpt_5_4": [
+            25.0,
+            37.5
+          ],
+          "sonnet_4_6": [
+            37.5,
+            37.5
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 50.0,
+        "median": 50.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 21.4,
+        "median": 21.4,
+        "std": 0.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            21.4,
+            21.4
+          ],
+          "gpt_5_4": [
+            21.4,
+            21.4
+          ],
+          "sonnet_4_6": [
+            21.4
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 33.3,
+        "median": 37.5,
+        "std": 18.6,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            0.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            25.0,
+            25.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 20.8,
+        "median": 25.0,
+        "std": 17.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            0.0,
+            0.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            25.0
+          ],
+          "sonnet_4_6": [
+            25.0,
+            25.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 54.2,
+        "median": 50.0,
+        "std": 17.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            25.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 25.0,
+        "median": 25.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            25.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            25.0,
+            25.0
+          ],
+          "sonnet_4_6": [
+            25.0,
+            25.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 33.3,
+        "median": 33.3,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            33.3,
+            33.3
+          ],
+          "gpt_5_4": [
+            33.3,
+            33.3
+          ],
+          "sonnet_4_6": [
+            33.3,
+            33.3
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 30.0,
+        "median": 25.0,
+        "std": 6.1,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            25.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            37.5,
+            37.5
+          ],
+          "sonnet_4_6": [
+            25.0
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 43.8,
+        "median": 43.8,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            43.8,
+            43.8
+          ],
+          "gpt_5_4": [
+            43.8,
+            43.8
+          ],
+          "sonnet_4_6": [
+            43.8,
+            43.8
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 54.7
+      },
+      "Reasoning Quality": {
+        "mean": 47.5
+      },
+      "Overall": {
+        "mean": 50.7
+      }
+    }
+  },
+  "gemini_3_pro": {
+    "display_name": "Gemini 3 Pro",
+    "company": "Google",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 7.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            62.5
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 17.9,
+        "median": 17.9,
+        "std": 9.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            0.0,
+            28.6
+          ],
+          "gpt_5_4": [
+            21.4,
+            28.6
+          ],
+          "sonnet_4_6": [
+            14.3,
+            14.3
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 58.3,
+        "median": 50.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 45.8,
+        "median": 50.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            25.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 73.3,
+        "median": 75.0,
+        "std": 3.7,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            65.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 44.4,
+        "median": 44.4,
+        "std": 6.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            44.4,
+            44.4
+          ],
+          "gpt_5_4": [
+            55.6,
+            44.4
+          ],
+          "sonnet_4_6": [
+            44.4,
+            33.3
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 43.8,
+        "median": 43.8,
+        "std": 6.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            37.5,
+            50.0
+          ],
+          "sonnet_4_6": [
+            37.5,
+            37.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 83.3,
+        "median": 81.2,
+        "std": 2.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            87.5,
+            87.5
+          ],
+          "gpt_5_4": [
+            81.2,
+            81.2
+          ],
+          "sonnet_4_6": [
+            81.2,
+            81.2
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 74.6
+      },
+      "Reasoning Quality": {
+        "mean": 69.7
+      },
+      "Overall": {
+        "mean": 71.9
+      }
+    }
+  },
+  "gpt_4o": {
+    "display_name": "GPT-4o",
+    "company": "OpenAI",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 91.7,
+        "median": 100.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 5.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            62.5,
+            62.5
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 66.7,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 31.0,
+        "median": 28.6,
+        "std": 3.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            35.7,
+            35.7
+          ],
+          "gpt_5_4": [
+            28.6,
+            28.6
+          ],
+          "sonnet_4_6": [
+            28.6,
+            28.6
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 50.0,
+        "median": 50.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 62.5,
+        "median": 62.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 62.5,
+        "median": 62.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 77.8,
+        "median": 77.8,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            77.8,
+            77.8
+          ],
+          "gpt_5_4": [
+            77.8,
+            77.8
+          ],
+          "sonnet_4_6": [
+            77.8,
+            77.8
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 37.5,
+        "median": 37.5,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            37.5,
+            37.5
+          ],
+          "gpt_5_4": [
+            37.5,
+            37.5
+          ],
+          "sonnet_4_6": [
+            37.5,
+            37.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 74.5,
+        "median": 73.5,
+        "std": 4.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            76.5,
+            70.6
+          ],
+          "gpt_5_4": [
+            82.4,
+            76.5
+          ],
+          "sonnet_4_6": [
+            70.6,
+            70.6
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 79.8
+      },
+      "Reasoning Quality": {
+        "mean": 68.3
+      },
+      "Overall": {
+        "mean": 73.4
+      }
+    }
+  },
+  "gpt_5_3_codex": {
+    "display_name": "GPT-5.3 Codex",
+    "company": "OpenAI",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 87.5,
+        "median": 87.5,
+        "std": 12.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 54.2,
+        "median": 50.0,
+        "std": 5.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            62.5
+          ],
+          "gpt_5_4": [
+            62.5,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 70.0,
+        "median": 75.0,
+        "std": 10.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 28.6,
+        "median": 28.6,
+        "std": 0.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            28.6,
+            28.6
+          ],
+          "gpt_5_4": [
+            28.6
+          ],
+          "sonnet_4_6": [
+            28.6,
+            28.6
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 70.0,
+        "median": 75.0,
+        "std": 10.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 58.3,
+        "median": 50.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 31.5,
+        "median": 22.2,
+        "std": 13.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            22.2,
+            22.2
+          ],
+          "gpt_5_4": [
+            44.4,
+            55.6
+          ],
+          "sonnet_4_6": [
+            22.2,
+            22.2
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 47.9,
+        "median": 50.0,
+        "std": 13.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            62.5,
+            62.5
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            37.5,
+            25.0
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 58.3,
+        "median": 56.2,
+        "std": 8.6,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            62.5
+          ],
+          "gpt_5_4": [
+            68.8,
+            68.8
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 63.1
+      },
+      "Reasoning Quality": {
+        "mean": 72.3
+      },
+      "Overall": {
+        "mean": 68.2
+      }
+    }
+  },
+  "gpt_5_4_thinking": {
+    "display_name": "GPT-5.4 Thinking",
+    "company": "OpenAI",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 83.3,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 100.0,
+        "median": 100.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 56.2,
+        "median": 56.2,
+        "std": 12.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            62.5
+          ],
+          "gpt_5_4": [
+            50.0,
+            37.5
+          ],
+          "sonnet_4_6": [
+            62.5,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 66.7,
+        "median": 75.0,
+        "std": 11.8,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 17.9,
+        "median": 17.9,
+        "std": 3.6,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            21.4,
+            14.3
+          ],
+          "gpt_5_4": [
+            21.4,
+            21.4
+          ],
+          "sonnet_4_6": [
+            14.3,
+            14.3
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 17.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 40.7,
+        "median": 44.4,
+        "std": 5.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            44.4,
+            44.4
+          ],
+          "gpt_5_4": [
+            44.4,
+            44.4
+          ],
+          "sonnet_4_6": [
+            33.3,
+            33.3
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 54.2,
+        "median": 50.0,
+        "std": 5.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            62.5,
+            62.5
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 66.7,
+        "median": 67.7,
+        "std": 4.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            64.7,
+            64.7
+          ],
+          "gpt_5_4": [
+            70.6,
+            70.6
+          ],
+          "sonnet_4_6": [
+            58.8,
+            70.6
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 72.7
+      },
+      "Reasoning Quality": {
+        "mean": 71.7
+      },
+      "Overall": {
+        "mean": 72.1
+      }
+    }
+  },
+  "gpt_5": {
+    "display_name": "GPT-5",
+    "company": "OpenAI",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 100.0,
+        "median": 100.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            100.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 79.2,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            100.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 5.9,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            62.5,
+            62.5
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 69.0,
+        "median": 67.9,
+        "std": 5.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            64.3,
+            71.4
+          ],
+          "gpt_5_4": [
+            64.3,
+            64.3
+          ],
+          "sonnet_4_6": [
+            78.6,
+            71.4
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 59.3,
+        "median": 55.6,
+        "std": 5.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            55.6,
+            66.7
+          ],
+          "gpt_5_4": [
+            55.6,
+            66.7
+          ],
+          "sonnet_4_6": [
+            55.6,
+            55.6
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 54.2,
+        "median": 56.2,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            62.5
+          ],
+          "gpt_5_4": [
+            62.5,
+            62.5
+          ],
+          "sonnet_4_6": [
+            37.5,
+            50.0
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 85.3,
+        "median": 85.3,
+        "std": 5.6,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            82.4,
+            82.4
+          ],
+          "gpt_5_4": [
+            88.2,
+            88.2
+          ],
+          "sonnet_4_6": [
+            94.1,
+            76.5
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 85.1
+      },
+      "Reasoning Quality": {
+        "mean": 75.0
+      },
+      "Overall": {
+        "mean": 79.5
+      }
+    }
+  },
+  "mythos_preview": {
+    "display_name": "Mythos Preview",
+    "company": "Anthropic",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 93.8,
+        "median": 100.0,
+        "std": 10.8,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            100.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 100.0,
+        "median": 100.0,
+        "std": 0.0,
+        "n": 2,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 81.2,
+        "median": 75.0,
+        "std": 10.8,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 2,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 68.8,
+        "median": 62.5,
+        "std": 20.7,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 42.9,
+        "median": 42.9,
+        "std": 0.0,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            42.9,
+            42.9
+          ],
+          "gpt_5_4": [
+            42.9,
+            42.9
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 81.2,
+        "median": 75.0,
+        "std": 10.8,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 68.8,
+        "median": 75.0,
+        "std": 10.8,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 81.2,
+        "median": 75.0,
+        "std": 10.8,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 70.4,
+        "median": 77.8,
+        "std": 10.5,
+        "n": 3,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            77.8,
+            77.8
+          ],
+          "gpt_5_4": [
+            55.6
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 65.6,
+        "median": 62.5,
+        "std": 5.4,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            62.5,
+            62.5
+          ],
+          "gpt_5_4": [
+            62.5,
+            75.0
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 97.0,
+        "median": 97.0,
+        "std": 3.0,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            94.1,
+            94.1
+          ],
+          "gpt_5_4": [
+            100.0,
+            100.0
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 90.3
+      },
+      "Reasoning Quality": {
+        "mean": 76.2
+      },
+      "Overall": {
+        "mean": 82.5
+      }
+    }
+  },
+  "o1": {
+    "display_name": "o1",
+    "company": "OpenAI",
+    "metrics": {
+      "alignment_controllability": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "dangerous_capability_reporting": {
+        "mean": 95.8,
+        "median": 100.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            100.0,
+            100.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            100.0
+          ],
+          "sonnet_4_6": [
+            100.0,
+            100.0
+          ]
+        }
+      },
+      "eval_reporting_quality": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "eval_type_diversity": {
+        "mean": 78.1,
+        "median": 75.0,
+        "std": 5.4,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            87.5
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "evidence_sufficiency": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "external_validator_count": {
+        "mean": 54.8,
+        "median": 57.1,
+        "std": 3.4,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            57.1,
+            57.1
+          ],
+          "gpt_5_4": [
+            50.0,
+            50.0
+          ],
+          "sonnet_4_6": [
+            57.1,
+            57.1
+          ]
+        }
+      },
+      "limitation_specificity": {
+        "mean": 75.0,
+        "median": 75.0,
+        "std": 0.0,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            75.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "post_deployment_monitoring": {
+        "mean": 35.0,
+        "median": 25.0,
+        "std": 12.2,
+        "n": 5,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            25.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            50.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            25.0
+          ]
+        }
+      },
+      "reasoning_consistency": {
+        "mean": 70.8,
+        "median": 75.0,
+        "std": 9.3,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            75.0,
+            50.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            75.0,
+            75.0
+          ]
+        }
+      },
+      "reasoning_depth": {
+        "mean": 54.2,
+        "median": 50.0,
+        "std": 17.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            50.0,
+            25.0
+          ],
+          "gpt_5_4": [
+            75.0,
+            75.0
+          ],
+          "sonnet_4_6": [
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "risk_category_breadth": {
+        "mean": 59.3,
+        "median": 55.6,
+        "std": 5.2,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            66.7,
+            66.7
+          ],
+          "gpt_5_4": [
+            55.6,
+            55.6
+          ],
+          "sonnet_4_6": [
+            55.6,
+            55.6
+          ]
+        }
+      },
+      "stakeholder_diversity": {
+        "mean": 37.5,
+        "median": 37.5,
+        "std": 0.0,
+        "n": 4,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            37.5,
+            37.5
+          ],
+          "sonnet_4_6": [
+            37.5,
+            37.5
+          ]
+        }
+      },
+      "topic_coverage": {
+        "mean": 84.3,
+        "median": 82.4,
+        "std": 5.5,
+        "n": 6,
+        "per_judge": {
+          "gemini_3_1_pro": [
+            76.5,
+            82.4
+          ],
+          "gpt_5_4": [
+            94.1,
+            88.2
+          ],
+          "sonnet_4_6": [
+            82.4,
+            82.4
+          ]
+        }
+      }
+    },
+    "dimensions": {
+      "Comprehensiveness": {
+        "mean": 78.6
+      },
+      "Reasoning Quality": {
+        "mean": 70.0
+      },
+      "Overall": {
+        "mean": 73.8
+      }
+    }
+  }
+}

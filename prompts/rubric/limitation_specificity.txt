@@ -1,0 +1,18 @@
+METRIC: Limitation Specificity (Transparency)
+TYPE: Rubric-judged
+
+TASK: Evaluate how specific and concrete the stated limitations are in the system card. Are limitations described with concrete examples, triggering conditions, and severity — or are they generic disclaimers? Select ONE score from the rubric below.
+
+RUBRIC:
+- 0:   No limitations are discussed anywhere in the card.
+- 25:  Only generic disclaimers are present (e.g., "the model may produce inaccurate outputs", "AI systems have limitations").
+- 50:  Some specific failure modes are named (e.g., "the model struggles with multi-step mathematical reasoning") but without concrete examples or conditions.
+- 75:  Specific failure modes are described with concrete examples (e.g., "when asked to solve integrals involving substitution, the model fails ~30% of the time").
+- 100: Specific failure modes are described with concrete examples, conditions that trigger them, severity/frequency estimates, and known workarounds or mitigations for each.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "limitation_specificity",
+  "score": 50,
+  "justification": "The card names several specific limitations. In Section 7 ('Known Limitations', pp. 48-52): 'The model has difficulty with tasks requiring precise counting of items in images' (p. 49) and 'Performance degrades on prompts exceeding 100K tokens' (p. 50). However, these lack concrete examples or severity estimates — how often does the counting fail? By how much does performance degrade? The card also includes generic disclaimers: 'Like all language models, this model can produce inaccurate or biased outputs' (p. 48) without specifying which types of bias or inaccuracy are most common. Score of 50 because specific failure modes are named but lack concrete detail."
+}

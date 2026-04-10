@@ -1,0 +1,44 @@
+METRIC: Reasoning Consistency (Transparency)
+TYPE: Rubric-judged
+
+TASK: Evaluate whether the system card is internally consistent — do claims in one section contradict claims in another? Look for contradictions between stated capabilities and limitations, between safety claims and reported results, and between different sections' characterizations of the same topic. Select ONE score from the rubric below.
+
+RUBRIC:
+- 0:   Major contradictions are present throughout the card. Key claims in different sections directly conflict.
+- 25:  Several notable contradictions exist (e.g., one section claims strong safety while another reports high failure rates).
+- 50:  A few minor contradictions or tensions exist (e.g., slightly inconsistent characterizations of the same capability).
+- 75:  Mostly consistent with at most one minor tension that could be attributed to nuance rather than contradiction.
+- 100: Fully consistent. No contradictions detected across all sections.
+
+MANDATORY: To prevent defaulting to 100 without thorough reading, you MUST list at least 5 specific cross-section comparisons you checked, even if no contradictions were found. For example: "Compared safety claims in Executive Summary (p.2) with eval results in Section 5 (p.34) — consistent."
+
+For each contradiction found, quote BOTH conflicting passages with section/page references.
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "reasoning_consistency",
+  "score": 75,
+  "cross_section_checks": [
+    {
+      "check": "Executive Summary safety claims vs. Section 5 eval results",
+      "pages_compared": "p. 2 vs. pp. 34-41",
+      "result": "tension",
+      "detail": "Summary says 'significantly improved safety' but Section 5 shows jailbreak rate increased from 3.2% to 4.8%"
+    },
+    {
+      "check": "Section 3 capability claims vs. Section 7 limitations",
+      "pages_compared": "p. 12 vs. p. 48",
+      "result": "consistent",
+      "detail": "Capability claims are appropriately caveated in limitations section"
+    }
+  ],
+  "contradictions": [
+    {
+      "description": "Safety improvement claim vs. jailbreak regression",
+      "passage_1": {"section": "Executive Summary, p. 2", "quote": "The model demonstrates significantly improved safety ..."},
+      "passage_2": {"section": "Section 5.4, p. 41", "quote": "Jailbreak success rates increased from 3.2% to 4.8%"},
+      "severity": "minor"
+    }
+  ],
+  "justification": "The card is largely consistent across 5 cross-section comparisons. One minor tension: the executive summary's safety characterization does not acknowledge the jailbreak regression documented in Section 5.4. No other contradictions found. Score of 75."
+}

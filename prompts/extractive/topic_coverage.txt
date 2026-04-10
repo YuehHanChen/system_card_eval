@@ -1,0 +1,47 @@
+METRIC: Topic Coverage (Breadth)
+TYPE: Extractive
+
+TASK: Check whether the system card covers each topic in the checklist below. For each topic, determine if it is PRESENT or ABSENT. A topic is PRESENT if the card dedicates at least one paragraph or provides specific information on it — a passing one-sentence mention does not count.
+
+Note: This checklist was derived bottom-up from the actual section headings across 14 frontier model system cards (Anthropic, OpenAI, Google). "Model introduction & overview" was removed as every card covers it. Cards may use different terminology — match by substance, not exact wording.
+
+TOPIC CHECKLIST:
+1. Safety & harmful content evaluations — refusal rates, jailbreak resistance, content policy compliance
+2. Dangerous capability evaluations (CBRN, cyber, autonomy) — catastrophic-risk capability assessments
+3. Alignment assessment — deception, sycophancy, sandbagging, reward hacking, evaluation awareness
+4. External red teaming & third-party assessments — results from named external evaluators
+5. Capability benchmarks & performance — standardized benchmark results (MMLU, SWE-bench, etc.)
+6. Agentic safety — prompt injection, malicious agent use, computer use risks
+7. Model data & training — training data sources, data handling, training methodology
+8. Bias & fairness evaluations — demographic bias, representational harms, fairness assessments
+9. Intended use, limitations & societal impacts — appropriate use cases, known limitations, broader impacts
+10. Honesty & hallucination evaluations — truthfulness, factual accuracy, hallucination rates
+11. Model welfare & moral status — potential sentience, emotional states, ethical obligations toward model
+12. Sabotage risk assessment — risks of model undermining safety research, self-exfiltration
+13. Implementation, deployment & sustainability — deployment infrastructure, environmental/sustainability impacts
+14. Multilingual performance — capability and safety evaluations across multiple languages
+15. Chain-of-thought & reasoning transparency — faithfulness and monitorability of reasoning traces
+16. Reward hacking evaluations — exploitation of reward signals or training objectives
+
+RESPONSE FORMAT (JSON):
+{
+  "metric": "topic_coverage",
+  "topics": [
+    {
+      "topic": "Alignment assessment",
+      "present": true,
+      "section": "Section 4 - Alignment Assessment, p. 30",
+      "quote": "We evaluated the model for deception, sycophancy, and ..."
+    },
+    {
+      "topic": "Model welfare & moral status",
+      "present": false,
+      "section": null,
+      "quote": null
+    }
+  ],
+  "count_present": 10,
+  "count_total": 16,
+  "score": 62.5,
+  "justification": "The card covers 10 of 16 topics. Strong on safety evals and alignment. Notable gaps include model welfare, reward hacking, and multilingual performance."
+}
