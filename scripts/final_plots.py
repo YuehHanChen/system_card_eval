@@ -155,8 +155,8 @@ def plot_overall_ranking(scores):
         ax.get_yticklabels()[i].set_fontweight("bold")
 
     ax.set_xlim(0, 100)
-    ax.set_xlabel("Overall Score (Comprehensiveness + Reasoning Quality)")
-    ax.set_title("System Card Eval", fontweight="bold")
+    ax.set_xlabel("")
+    ax.set_title("System Card Score (Comprehensiveness + Reasoning Quality)", fontweight="bold")
     ax.invert_yaxis()
     ax.grid(True, axis="x", alpha=0.2)
 

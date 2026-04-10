@@ -118,9 +118,11 @@ Despite growing public attention to AI safety documentation, system card quality
 
 ### 3.2 Topic coverage varies dramatically by company
 
-![Topic Coverage](results/topic_coverage.png)
+![Topic Coverage by Company](results/topic_coverage.png)
 
-Across 16 safety-relevant topics derived from the cards themselves:
+![Topic Coverage by Model](results/topic_coverage_per_model.png)
+
+Across 16 topics derived from the cards themselves:
 
 **Anthropic (92% average)**: Covers 100% on 12 of 16 topics. The only company that consistently addresses model welfare & moral status, reward hacking evaluations, and chain-of-thought reasoning transparency. Weakest on environmental impact (44%) and intended use/limitations (65%).
 
