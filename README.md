@@ -1,6 +1,38 @@
 # System Card Eval
 
-How transparent are the system cards of frontier AI models? This project quantitatively compares **12 system cards** from **3 companies** (Anthropic, OpenAI, Google) across three dimensions: **Comprehensiveness**, **Reasoning Quality**, and **3rd-party Verification**.
+How thorough are the system cards of frontier AI models? This project quantitatively compares **12 system cards** from **3 companies** (Anthropic, OpenAI, Google) across two dimensions: **Comprehensiveness** (what topics are covered) and **Reasoning Quality** (how well claims are backed up with evidence).
+
+![Report Card](results/report_card.png)
+
+## Quick Start
+
+```bash
+# Clone and install
+git clone https://github.com/YuehHanChen/system_card_eval.git
+cd system_card_eval
+uv sync
+
+# Set up API key
+echo "OPENROUTER_API_KEY=sk-or-..." > .env
+
+# Download system card PDFs into system_cards/ and companion reports into system_cards/companion_reports/
+# (PDFs not included in repo due to size)
+
+# Extract text from PDFs
+uv run python scripts/extract_text.py
+
+# Run evaluation (all models, all metrics, 3 judges x 2 runs)
+uv run python scripts/evaluate.py
+
+# Or run a single model
+uv run python scripts/evaluate.py --models gemini_3_pro
+
+# Aggregate scores and compute agreement/bias
+uv run python scripts/aggregate.py
+
+# Generate plots
+uv run python scripts/final_plots.py
+```
 
 ## System Cards Evaluated
 
@@ -146,15 +178,11 @@ Each judge produces a JSON response with:
 
 ## Results
 
-### Headline: How Transparent Are AI System Cards?
-
-![Headline](results/viral_headline.png)
-
-**Anthropic leads at 79/100**, followed by OpenAI (71) and Google (57). Scored across 12 system cards on 9 metrics covering breadth and transparency, using 3 LLM judges with 2 runs each.
-
 ### Overall Ranking
 
 ![Overall Ranking](results/overall_ranking.png)
+
+Anthropic's system cards consistently score highest (avg 82), followed by OpenAI (74) and Google (66).
 
 | # | Model | Company | Overall |
 |---|---|---|---|
